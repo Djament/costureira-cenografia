@@ -52,6 +52,7 @@ O projeto faz uso de tecnologias básicas, visando melhor performance do código
 - [HTML5]
 - [CSS3]
 - [PHP7]
+- [JS]
 
 ##### Recursos Externos
 - [PHPMailer 5.2]
@@ -109,6 +110,7 @@ Links referentes aos arquivos no [GitHub].
    [HTML5]: <https://www.w3.org/html/>
    [CSS3]: <https://www.w3.org/Style/CSS/>
    [PHP7]: <https://secure.php.net/>
+   [JS]: <https://developer.mozilla.org/bm/docs/Web/JavaScript>
    [PHPMailer]: <https://github.com/PHPMailer>
    [BootStrap 4.1.3]: <https://getbootstrap.com/docs/4.1/getting-started/introduction/>
    [Google Fonts]: <https://fonts.google.com/>
