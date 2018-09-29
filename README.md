@@ -1,4 +1,4 @@
-# [![Djament](https://djament.com.br/img/logo-20x20.png)](https://djament.com.br) Costureira de Cenografia | Site Institucional
+# [![Djament](https://djament.com.br/favicons/favicon-32x32.png)](https://djament.com.br) Costureira de Cenografia | Site Institucional
 ___
 ###### Desenvolvido por [Djament Comunicação] | [Marcelo Diament] em Setembro de 2018
 ###### Versão: 0.0.1 | [ver site] | [ver repositório]
