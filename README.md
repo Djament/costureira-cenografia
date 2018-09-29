@@ -6,6 +6,11 @@ ___
 ### // Apresentação
 Projeto desenvolvido como a ação inicial de um projeto de posicionamento digital para o ateliê de costura [Costureira de Cenografia] através de um site institucional simples (versão beta) que facilite o contato com o ateliê e que exponha seus serviços e portfolio, bem como através de anúncios no [GoogleAds] e monitoramento no [GoogleAnalytics] para análise e entendimento inicial quanto ao público alvo, segmentação e termos chave, visando a produção de conteúdo e otimização contínua de SEO.
 
+### // Resultados
+Últimos testes e audições realizados:
+[![Djament](https://raw.githubusercontent.com/Djament/costureira-cenografia/master/testes-audits/audits-seo-e-performance/google-chrome-audit-desktop-20180929.JPG)](https://github.com/Djament/costureira-cenografia/tree/master/testes-audits)
+[Testes e Audits] | [Resultados de Buscas Orgânicas]
+
 ---
 
 ### // Contextualização do Projeto
@@ -99,6 +104,8 @@ Links referentes aos arquivos no [GitHub].
    [issue]: <https://github.com/Djament/costureira-cenografia/issues/new>
    [GoogleAds]: <https://ads.google.com>
    [Google Analytics]: <https://analytics.google.com>
+   [Testes e Audits]: <https://github.com/Djament/costureira-cenografia/tree/master/testes-audits/audits-seo-e-performance>
+   [Resultados de Buscas Orgânicas]: <https://github.com/Djament/costureira-cenografia/tree/master/testes-audits/google%20search>
    [HTML5]: <https://www.w3.org/html/>
    [CSS3]: <https://www.w3.org/Style/CSS/>
    [PHP7]: <https://secure.php.net/>
