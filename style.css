@@ -1,0 +1,302 @@
+*{
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	max-width: 100vw;
+	text-rendering: geometricPrecision;
+	scroll-behavior: smooth;
+}
+@media only screen and (max-width: 840px){
+	.desktopOnly{
+		display: none;
+	}
+}
+a, a:hover, a:visited, a:focus, a:focus-within{
+	text-decoration: none;
+	color: inherit;
+}
+.bg-dark{
+	background-color: rgba(0,0,0,0) !important;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+#navbarNavDropdown{
+	width: 100%;
+	margin: -50px -15px;
+	padding: 15px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+@media only screen and (max-width: 480px){
+	#navbarNavDropdown{
+		background-color: #000;
+	}
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0);
+}
+.topo{
+	padding-top: 55px;
+	background-image: url(img/topo.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+.topo-txt{
+	color: #fff;
+	text-align: center;
+	display: block;
+	margin-top: 13vh;
+}
+h1, h2{
+	font-weight: bold;
+	text-align: center;
+}
+.cenarios{
+	padding-top: 15vh;
+	background-image: url(img/costura-cenario.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+}
+.figurinos{
+	padding-top: 15vh;
+	background-image: url(img/costura-figurino.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+}
+.cenarios h2, .figurinos h2{
+	font-size: 32pt;
+}
+ul.casesLista li{
+	padding: 0;
+}
+@media only screen and (min-width: 480px){
+	.topo{
+		background-attachment: fixed;
+	}
+	.cenarios, .figurinos{
+		padding-top: 25vh;
+		min-height: 100vh;
+		background-attachment: fixed;
+	}
+}
+.cenarios i, .figurinos i{
+	font-size: 42px;
+}
+.cenarios div p, .figurinos div p{
+	margin-top: 77px !important;
+	font-size: 24px;
+	width: 60%;
+	text-align: justify;
+	margin: auto;
+}
+.botoes{
+	width: auto;
+	margin: auto;
+	margin-top: 20px;
+	float: right;
+}
+@media only screen and (min-width: 480px){
+	.botoes{
+		margin-right: 20%;
+	}
+	.topo .botoes{
+		margin-right: auto;
+	}
+}
+button.verMais, input[value="Limpar"].verMais{
+	background-color: rgba(255,255,255,0);
+	color: #fff;
+	border: 1px solid rgba(255,255,255,1);
+	margin-top: 15px;
+	padding: 10px;
+	font-size: 20px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+button.verMais:hover, input[value="Limpar"].verMais:hover{
+	background-color: rgba(255,255,255,1);
+	color: #000;
+	border: 1px solid rgba(255,255,255,0);
+}
+button.solicitarOrcamento, input[value="Enviar"].solicitarOrcamento{
+	background-color: rgba(255,255,255,1);
+	color: #000;
+	border: 1px solid rgba(255,255,255,0);
+	margin-top: 15px;
+	padding: 10px;
+	font-size: 20px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+form label input[type=text], form label input[type=email], form label input[type=number], form label textarea{
+	width: 100%;
+}
+button.solicitarOrcamento:hover, input[value="Enviar"].solicitarOrcamento:hover{
+	background-color: rgba(255,255,255,0);
+	color: #fff;
+	border: 1px solid rgba(255,255,255,1);
+}
+input[value="Enviar"], input[value="Limpar"]{
+	padding: 3px 12px !important;
+	float: right;
+	margin: 8px;
+}
+h2{
+	/*font-family: 'Shadows Into Light Two', cursive;*/
+	font-size: 18pt;
+}
+section article div.topo h3{
+	/*font-family: 'Just Another Hand', cursive;*/
+	text-align: center;
+}
+h3.head-post-card{
+	/*font-family: 'Shadows Into Light Two', cursive;*/
+}
+ul li{
+	text-align: left;
+	/*font-family: 'Just Another Hand', cursive;*/
+	font-size: 16pt;
+	text-transform: lowercase;
+}
+ul li h3{
+	/*font-family: 'Shadows Into Light Two', cursive;*/
+	font-size: 18pt;
+}
+ul li a p{
+	/*font-family: 'Just Another Hand', cursive;*/
+	font-size: 20pt;
+	font-weight: normal;
+}
+li.col-12{
+	padding: 0;
+	height: 120px;
+	display: block;
+}
+div.card{
+	display: block;
+}
+a.card.row{
+	margin: 10px;
+	min-height: 318px;
+}
+@media only screen and (min-width: 480px){
+	a.card.row{
+		min-height: 365px;
+	}
+}
+
+@media only screen and (min-width: 700px){
+	a.card.row{
+		min-height: 376px;
+	}	
+}
+@media only screen and (min-width: 900px){
+	a.card.row{
+		min-height: 380px;
+	}	
+
+	.portfolio div div.botoes{
+		margin: 225px 10px 24px auto !important;
+	}
+}
+.caseChamadas{
+	margin-top: 120px;
+	color: #fff;
+}
+.portfolio div div.botoes{
+	margin: 120px 10px 20px auto;
+}
+.portfolio article h4{
+	color: #fff;
+	font-weight: lighter;
+	margin-top: -10px;
+}
+.head-post-card{
+	padding: 10px 10px 5px 10px;
+	font-size: 16pt;
+}
+.sub-head-post-card{
+	margin: -15px 0 5px 0;
+	padding: 10px 10px 0 10px;
+	font-size: 12pt;
+}
+.casesLista li a small{
+	font-size: 12px;
+	padding: 0 10px;
+	font-style: italic;
+	margin: -5px 0 5px 0;
+}
+.portfolio{
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	min-height: 100vh;
+}
+.cardFigurino img, .cardCenario img{
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.cardFigurino:hover img, .cardCenario:hover img{
+	transform: scale(1.02);
+}
+/*Títulos*/
+/*h1{
+	font-family: 'Shadows Into Light Two', cursive;
+}*/
+/*h2{
+	font-family: 'Give You Glory', cursive; 
+}*/
+/*FRASES DESTAQUE*/
+/*h3{
+	font-family:'Amatic SC', cursive;
+}*/
+/*h4{
+	font-family: 'Waiting for the Sunrise', cursive;
+}*/
+/*Legendas*/
+/*small{
+	font-family:'Reenie Beanie', cursive;
+}*/
+/*Texto*/
+/*p{
+	font-family: 'Handlee', cursive;
+}*/
+footer{
+	background-image: url('img/bg2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	color: #fff;
+	height: 110vh;
+}
+footer h3{
+	margin-top: 90px;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://costureira-de-cenografia.com.br/</title>
+  <link>https://costureira-de-cenografia.com.br/</link>
+
+<item>
+     <link>https://costureira-de-cenografia.com.br/</link>
+     <title>Costureira de Cenografia</title>
+     <description>Costureira especializada em Costura para Cenografia, como Figurinos e Cenários para Espetáculos Musicais, Peças de Teatro, Cinema e Filmes Publicitários.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://costureira-de-cenografia.com.br/index.php</link>
+     <title>Costureira de Cenografia</title>
+     <description>Costureira especializada em Costura para Cenografia, como Figurinos e Cenários para Espetáculos Musicais, Peças de Teatro, Cinema e Filmes Publicitários.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
